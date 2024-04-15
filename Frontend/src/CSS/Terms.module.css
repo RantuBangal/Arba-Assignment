@@ -1,0 +1,36 @@
+.termsdiv {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    top: 0;
+    height: 80vh;
+    background-color: rgba(240, 248, 255, 0.226);
+    /* border: 1px solid red; */
+  }
+  .termsContainer {
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    /* border: 1px solid red; */
+    padding: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .termsContainer > h3 {
+    font-weight: 900;
+    color: black;
+    margin-bottom: 5%;
+  }
+  .termsContainer > p {
+    
+    font-weight: 800;
+    color: black;
+  }
+  .termsbtns {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+    cursor: pointer;
+  }
