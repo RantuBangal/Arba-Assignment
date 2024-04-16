@@ -32,7 +32,7 @@ const Signup = () => {
         throw new Error("Passwords do not match");
       }
 
-      const response = await fetch("http://localhost:8080/user/register", {
+      const response = await fetch("https://arba-assignment-n2dy.onrender.com/user/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

@@ -7,7 +7,7 @@ import {
 export const getProducts = () => (dispatch) => {
   dispatch({ type: GET_PRODUCTS_LOADING });
   try {
-    fetch(`http://localhost:8080/product`)
+    fetch(`https://arba-assignment-n2dy.onrender.com/product`)
       .then((res) => res.json())
       .then((res) => {
         console.log("API Response:", res);

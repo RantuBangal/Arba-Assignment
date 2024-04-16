@@ -12,7 +12,6 @@ function Navbar() {
   const dispatch = useDispatch();
 
   const token = localStorage.getItem("token");
-  const avatar = localStorage.getItem("avatar")
 
   useEffect(() => {
     const totalCount = data?.filter((e) => e.added === true).length || 0;
@@ -39,7 +38,7 @@ function Navbar() {
           {token ? (
             <>
               <img
-                src={avatar}
+                src="https://img.freepik.com/free-vector/businessman-character-avatar-isolated_24877-60111.jpg?t=st=1713286198~exp=1713289798~hmac=3ebf505d5993ad3d8da0a011747ef1eac22f513979381f272a233a1610f56cbb&w=740"
                 alt=""
               />
 

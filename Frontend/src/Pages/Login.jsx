@@ -25,7 +25,7 @@ const Login = () => {
         throw new Error("Email and password are required");
       }
 
-      const response = await fetch("http://localhost:8080/user/login", {
+      const response = await fetch("https://arba-assignment-n2dy.onrender.com/user/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
